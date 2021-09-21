@@ -1,0 +1,176 @@
+body {
+  background: rgb(132, 127, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 127, 225, 1) 0%,
+    rgba(228, 171, 251, 1) 49%,
+    rgba(130, 218, 237, 1) 93%
+  );
+  font-family: "Permanent Marker", cursive;
+  margin: 2px 100px;
+}
+nav {
+  padding: 20px 0px;
+}
+.navegacion {
+  display: flex;
+  background-color: blueviolet;
+  margin: 0;
+  padding: 0;
+  border-style: dashed;
+  border-color: palevioletred;
+  border-radius: 6px;
+}
+.barradenavegacion {
+  display: inline-flex;
+  list-style: none;
+  margin: 15px 0px 0px 650px;
+}
+.lista {
+  padding: 10px 30px;
+}
+.lista :hover {
+  color: red;
+}
+.lista a {
+  text-decoration: none;
+  color: aqua;
+  font-weight: 400;
+}
+.banner {
+  margin: 0;
+  position: relative;
+  bottom: 20px;
+}
+.imgbanner {
+  width: 1150px;
+  max-height: 400px;
+  border-radius: 8px;
+}
+.villager {
+  width: 100px;
+  padding: 0px 80px 0px 80px;
+}
+.villager:hover {
+  opacity: 0.5;
+}
+.barraimg {
+  display: flex;
+  margin-left: 0.3%;
+}
+.barraimg a {
+  text-decoration: none;
+  color: salmon;
+  padding-top: 5%;
+  margin: 10px;
+  font-size: 15px;
+  display: contents;
+  -webkit-text-stroke: 0.3px black;
+}
+.barraimg .enl {
+  color: purple;
+}
+.subtitulo {
+  color: darkslateblue;
+  -webkit-text-stroke: 0.3px black;
+  text-align: center;
+}
+.titulo {
+  color: deeppink;
+  -webkit-text-stroke: 0.3px black;
+  text-align: center;
+}
+.songs1 {
+  display: flex;
+  padding: 0px 30px 0px 30px;
+}
+.songs2 {
+  display: flex;
+  padding: 0px 30px 0px 30px;
+  margin: 6px 0px;
+}
+.songs1 img {
+  width: 250px;
+  margin: 0px 60px 0px 60px;
+  border-radius: 8px;
+}
+.songs2 img {
+  width: 250px;
+  margin: 0px 60px 0px 60px;
+  border-radius: 8px;
+}
+.songs1 a {
+  text-decoration: none;
+  margin-left: 35%;
+  background-color: mediumorchid;
+  border-style: groove;
+  border-radius: 6px;
+}
+.songs2 a {
+  text-decoration: none;
+  margin-left: 35%;
+  background-color: mediumorchid;
+  border-style: groove;
+  border-radius: 6px;
+}
+.songs1 a:hover {
+  background-color: palegreen;
+  color: springgreen;
+}
+.songs2 a:hover {
+  background-color: palegreen;
+  color: springgreen;
+}
+video {
+  margin-left: 22%;
+  margin-top: 10%;
+  border-style: double;
+  border-color: mediumspringgreen;
+  border-width: 20px;
+}
+footer {
+  background-image: url(../imagenes/footerback.png);
+  border-radius: 8px;
+}
+.titulos {
+  display: flex;
+  text-align: center;
+}
+.titulos h3 {
+  margin: 0px 200px 0px 200px;
+  position: relative;
+  right: 100px;
+}
+.pie {
+  display: flex;
+}
+.pie_el {
+  margin: 0px 50px 0px 50px;
+}
+img.pie_el {
+  width: 150px;
+  height: 150px;
+  margin-left: 20%;
+  border-radius: 8px;
+  position: relative;
+    top: 70px;
+}
+p.pie_el {
+  margin-left: 10%;
+  position: relative;
+    top: 50px;
+    font-family: "Cookie", cursive;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.copy {
+  border-style: solid;
+  border-color: hotpink;
+  font-family: "Cookie", cursive;
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer {
+  margin: 0px 50px 0px 50px;
+}

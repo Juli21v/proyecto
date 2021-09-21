@@ -1,0 +1,110 @@
+body {
+  background: rgb(132, 127, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 127, 225, 1) 0%,
+    rgba(228, 171, 251, 1) 49%,
+    rgba(130, 218, 237, 1) 93%
+  );
+  font-family: "Permanent Marker", cursive;
+  margin: 2px 100px;
+}
+nav {
+  padding: 20px 0px;
+}
+.navegacion {
+  display: flex;
+  background-color: blueviolet;
+  margin: 0;
+  padding: 0;
+  border-style: dashed;
+  border-color: palevioletred;
+  border-radius: 6px;
+}
+.barradenavegacion {
+  display: inline-flex;
+  list-style: none;
+  margin: 15px 0px 0px 650px;
+}
+.lista {
+  padding: 10px 30px;
+}
+.lista :hover {
+  color: red;
+}
+.lista a {
+  text-decoration: none;
+  color: aqua;
+  font-weight: 400;
+}
+.subtitulo {
+  color: darkslateblue;
+  -webkit-text-stroke: 0.3px black;
+  text-align: center;
+}
+.titulo {
+  color: deeppink;
+  -webkit-text-stroke: 0.3px black;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.container .card {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  margin: 0px 10px;
+  text-align: center;
+}
+footer {
+  background-image: url(../imagenes/footerback.png);
+  border-radius: 8px;
+  border-radius: 8px;
+}
+.titulos {
+  display: flex;
+  text-align: center;
+}
+.titulos h3 {
+  margin: 0px 200px 0px 200px;
+  position: relative;
+  right: 100px;
+}
+.pie {
+  display: flex;
+}
+.pie_el {
+  margin: 0px 50px 0px 50px;
+}
+img.pie_el {
+  width: 150px;
+  height: 150px;
+  margin-left: 20%;
+  border-radius: 8px;
+  position: relative;
+  top: 70px;
+}
+p.pie_el {
+  margin-left: 10%;
+  position: relative;
+  top: 50px;
+  font-family: "Cookie", cursive;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.copy {
+  border-style: solid;
+  border-color: hotpink;
+  font-family: "Cookie", cursive;
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer {
+  margin: 0px 50px 0px 50px;
+}
